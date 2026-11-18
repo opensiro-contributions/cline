@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "2026-11-18--cline-s4-roadmap-research",
+  "recorded_at": "2026-11-18T00:00:00Z",
+  "actor": "OpenSiro AI assistant",
+  "kind": "RESEARCH",
+  "decision": "PLAN_ONLY_NEEDS_EVIDENCE",
+  "evidence_urls": [
+    "https://github.com/opensiro/vsm-harness-index/blob/5f6ea0c777733813ca42e3f210390a719488dcfb/assessments/cl/cline.md",
+    "https://github.com/cline/cline/commit/eff43e19b267e171f597ab03733bfed25090f72d",
+    "https://github.com/cline/cline/issues/15446",
+    "https://github.com/cline/cline/issues/15481"
+  ],
+  "next_action": "Obtain current-conversation approval before any public fork Issue; RESUME required for effectful next work."
+}
