@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "20261119T202243Z--upstream58-batch5-cline-rerun",
+  "recorded_at": "2026-11-19T20:22:43Z",
+  "actor": "OpenSiro AI assistant (user-requested Upstream #58 five-case rerun)",
+  "kind": "RESEARCH",
+  "decision": "NO_GO",
+  "evidence_urls": [
+    "https://github.com/opensiro-contributions/cline/commit/3437b3be25df2404b19cc699a52590a46bbc6e0f",
+    "https://github.com/opensiro-contributions/cline/blob/3437b3be25df2404b19cc699a52590a46bbc6e0f/.opensiro/issues/cline-s4-model-lifecycle-20261118/roadmap.md",
+    "https://github.com/opensiro/upstream/issues/58"
+  ],
+  "note": "Proposal-gate source-first rerun recorded in canonical Human/AI/Receipt. Model catalog/Hub model lifecycle S4 did not establish a separate autonomous future-environment feedback loop over native provider catalog and current Hub upgrade incident #15795. Research NO_USEFUL_CHANGE; native tests NOT_RUN, external publication not authorized.",
+  "next_action": "Route native Hub upgrade restart and catalog refresh reproduction; no S4 product port."
+}

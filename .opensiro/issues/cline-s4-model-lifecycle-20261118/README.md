@@ -1,14 +1,23 @@
-# Cline — S4 model-lifecycle adaptation case
+# cline/cline — independent Upstream #58 v0.18 rerun
 
-**Source:** [cline/cline@eff43e19b267e171f597ab03733bfed25090f72d](https://github.com/cline/cline/commit/eff43e19b267e171f597ab03733bfed25090f72d) · **observed:** 2026-11-18  
-**Working fork:** https://github.com/opensiro-contributions/cline (verified parent `cline/cline`) · **metadata:** `opensiro/meta`
+**Research observation:** 2026-11-19 · **Original HEAD:** [20b042723a14412f6c1e84230b008708534d6e8c](https://github.com/cline/cline/commit/20b042723a14412f6c1e84230b008708534d6e8c) · **Index:** accepted historical state, not updated.
 
-- [Human decision and proposed fork-local GitHub Issue](issue.md) — single public Issue candidate, not yet published.
-- [AI/developer conditional constructor contract](constructor-sufficiency.md) — independently linked from the Human Issue, tests NOT executed.
-- [Capability roadmap receipt](roadmap.md) — pinned assessment, native overlap, priority, owners, cost and publication gates.
+- **Proposal-stage decision:** NO_GO
+- **Research disposition:** NO_USEFUL_CHANGE
+- **Target transition:** NO_QUALIFIED_C_TARGET
+- **Owner control:** ACTIVE / ALLOW for internal OpenSiro metadata (owner event `20261119T182226Z--owner-upstream58-active`)
+- **Canonical atomic case commit:** [3437b3be25df2404b19cc699a52590a46bbc6e0f](https://github.com/opensiro-contributions/cline/commit/3437b3be25df2404b19cc699a52590a46bbc6e0f)
+- [Canonical proposal-gate roadmap receipt](https://github.com/opensiro-contributions/cline/blob/3437b3be25df2404b19cc699a52590a46bbc6e0f/.opensiro/issues/cline-s4-model-lifecycle-20261118/roadmap.md) — historical vector, full six functions, A/B, rights, verdict and cost
+- [Human Issue draft](https://github.com/opensiro-contributions/cline/blob/3437b3be25df2404b19cc699a52590a46bbc6e0f/.opensiro/issues/cline-s4-model-lifecycle-20261118/issue.md) — central Index starting point and combined six-function table
+- [AI/developer sufficiency contract](https://github.com/opensiro-contributions/cline/blob/3437b3be25df2404b19cc699a52590a46bbc6e0f/.opensiro/issues/cline-s4-model-lifecycle-20261118/constructor-sufficiency.md) — source-backed options, falsifier and proposed native acceptance
+- [Upstream #58](https://github.com/opensiro/upstream/issues/58) — internal queue owner
 
-**Historical accepted Index:** [S1=A / S2=C / S3=C / S3*=C / S4=— / S5=—](https://github.com/opensiro/vsm-harness-index/blob/5f6ea0c777733813ca42e3f210390a719488dcfb/assessments/cl/cline.md) (reviewed 2026-09-15; not today's grade).
+## Distinction from previous case
 
-**Status:** `PLAN_ONLY / NEEDS_EVIDENCE`. **Fork Issue:** NOT PUBLISHED, owner must approve exact full text. **Original Issue/PR:** NOT PUBLISHED. **Contribution record:** NONE because this is plan-only. **Source-native tests:** NOT RUN. **Cost:** NOT_MEASURED. **Fork control:** DORMANT/PAUSE, requiring effective owner RESUME for any new effectful steps.
+Model catalog/Hub model lifecycle S4 did not establish a separate autonomous future-environment feedback loop over native provider catalog and current Hub upgrade incident #15795.
 
-**Next:** obtain actual scheduled-agent operator counterfactual, verify existing SDK/plugin integration and native authority/feedback paths, then decide `NO_USEFUL_CHANGE` or separately authorize implementation. Do not publish outward or claim S4 construction from this plan.
+## Validation and delivery
+
+Official `scripts/validate_capability_roadmap.py` from Upstream main `be03ced5ed5d3b7210762df612dc4b3f452c1a73`: **PASS** for all three published files, independently downloaded from pinned GitHub commit. This is a structural check, NOT native/semantic validation. Native tests: **NOT_RUN**. Measured user benefit/cost: **NOT_MEASURED**.
+
+Rights: original and matching fork parent checked; no original-facing publication, no fork GitHub Issue, no product implementation, no accepted Index regrade. Both publications **DRAFT — NOT PUBLISHED**. Next: Route native Hub upgrade restart and catalog refresh reproduction; no S4 product port.
