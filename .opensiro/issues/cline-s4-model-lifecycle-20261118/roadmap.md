@@ -1,68 +1,93 @@
-# Cline — source-native S4 capability roadmap receipt
+# cline/cline — Upstream #58 independent v0.18 receipt
 
-## Identity and pins
-
+- Receipt contract: proposal-gate
 - Original repository: cline/cline
-- Original HEAD: eff43e19b267e171f597ab03733bfed25090f72d
-- Observed at: 2026-11-18
-- Accepted Index assessment: https://github.com/opensiro/vsm-harness-index/blob/5f6ea0c777733813ca42e3f210390a719488dcfb/assessments/cl/cline.md
+- Original HEAD: 20b042723a14412f6c1e84230b008708534d6e8c
+- Observed at: 2026-11-19
+- Accepted Index assessment: https://github.com/opensiro/vsm-harness-index/blob/c2e43bf4750841277b3e58d8ba80314121734764/assessments/cl/cline.md
 - Accepted assessment blob SHA: 7dcc1f6f9e1087b867f2074549949d3dd26a9ced
 - Accepted review ref: cfe9cadab99617d5013bf89f07b079d105057791
 - Accepted reviewed at: 2026-09-15
-- System in focus: first-party SDK/CLI hub scheduled-agent mode and shared provider catalog; outside external providers, maintainers, VS Code-only surface, private services
-- Historical full vector: S1=A / S2=C / S3=C / S3*=C / S4=— / S5=—; Profile 0.2.1 / Skills 0.3.1
-- Latest accepted semantic check: 2026-09-17 (62 days before observation); Index reassessment advised, not a plan-only blocker
-- Result: NEEDS_EVIDENCE
-- Case ID: cline-s4-model-lifecycle-20261118
-- Working fork: https://github.com/opensiro-contributions/cline
+- Accepted Index commit: c2e43bf4750841277b3e58d8ba80314121734764
+- Accepted Profile version: 0.2.1
+- Accepted Skills methodology version: 0.3.1
+- Accepted VSM vector: S1=A · S2=C · S3=C · S3*=C · S4=— · S5=—
+- System in focus: Cline first-party VS Code/SDK team runtime, provider/model catalogs, CLI Hub and supported client configuration; excluding provider vendors' release-governance decisions
+- Matching working fork: opensiro-contributions/cline
+- Fork owner control: ACTIVE/ALLOW per .opensiro/state.json
+- Repository-wide source map: apps/vscode/src/sdk/model-catalog/catalog.ts; sdk/packages/core/src/extensions/tools/team/multi-agent.ts; docs/cli/agent-teams.mdx; original README, docs, tests, license, contributing, original Issues/PRs
+- Evaluation object: Observed Hub→local→Hub upgrade inconsistency; an autonomous outside/future model-strategy owner does not repair that same current-state bug
+- Existing-work overlap: First-party provider catalog refresh, cache TTL and operator-selected provider configuration; issue #15795 shows running Hub not restarted by upgrade, not future/environment adaptation demand; team already reviews outcomes
+- Our on-top contribution: No additional native S4 C port justified. Correct the Hub upgrade restart and provider invalidation via existing architecture before proposing a model lifecycle control actor.
+- Incremental benefit: none established against native current task; not measured
+- Decision scope: one source-pinned proposed C capability, not whole-project or Index regrade
+- Priority rationale: S1/S2/S3/S3* have existing native ownership where applicable; no source-backed unique lawful S4/S5 decision and feedback
+- Target transition: NO_QUALIFIED_C_TARGET
+- P1 dependencies: Reproduce and route native #15795 running-Hub restart correctness; check existing provider picker and catalog invalidation
+- P2 optional: NONE
+- Proposed C construction: No additional native S4 C port justified. Correct the Hub upgrade restart and provider invalidation via existing architecture before proposing a model lifecycle control actor.
+- C sufficiency falsifier: A measured provider deprecation or capability-shift scenario proves native catalog refresh and legitimate manual switching cannot adapt future runs, while a new bounded autonomous S4 actor produces distinct permitted later-operation feedback
+- Scenario basis: OBSERVED
+- Proposal-stage decision: NO_GO
+- Research disposition: NO_USEFUL_CHANGE
+- Proposed validation: Reproduce stale Hub upgrade and verify restart semantics, compare model provider catalog cache reload against unchanged baseline; new S4 actor not warranted, NOT_RUN
+- Validation state: NOT_RUN
+- Proposal falsifier: A measured provider deprecation or capability-shift scenario proves native catalog refresh and legitimate manual switching cannot adapt future runs, while a new bounded autonomous S4 actor produces distinct permitted later-operation feedback
+- Result: NO_USEFUL_CHANGE
+- External issue: DRAFT — NOT PUBLISHED
+- Public fork Issue: DRAFT — NOT PUBLISHED
+- Cost status: NOT_MEASURED
+- S1 disposition: first-party autonomous operational tasks under native tool feedback
+- S2 disposition: optional team task board/mailbox provides composable coordination
+- S3 disposition: optional team lead controls active teammates and commitments
+- S3* disposition: reviewed/rejected fragments gate team outcome finalization
+- S4 disposition: provider catalog refresh is not a developer-composed future environment decision owner
+- S5 disposition: operator, deployment and user retain ultimate constraints
+
+## Identity and pins
+
+Pinned [Index assessment](https://github.com/opensiro/vsm-harness-index/blob/c2e43bf4750841277b3e58d8ba80314121734764/assessments/cl/cline.md), review [cfe9cadab99617d5013bf89f07b079d105057791](https://github.com/cline/cline/commit/cfe9cadab99617d5013bf89f07b079d105057791), indexed 2026-09-15, blob 7dcc1f6f9e1087b867f2074549949d3dd26a9ced, Profile 0.2.1, Skills 0.3.1. Original [current HEAD](https://github.com/cline/cline/commit/20b042723a14412f6c1e84230b008708534d6e8c) is distinct; no new Index grades. Source-first research preceded old case comparison.
 
 ## Rights and authority
 
-- License: [Apache-2.0](https://github.com/cline/cline/blob/eff43e19b267e171f597ab03733bfed25090f72d/LICENSE); [CONTRIBUTING.md](https://github.com/cline/cline/blob/eff43e19b267e171f597ab03733bfed25090f72d/CONTRIBUTING.md) requires issue and maintainer approval before a feature PR; no CLA claim beyond the stated contribution agreement.
-- Verified fork parent: cline/cline; fork owner push rights observed. New meta initializes restrictive DORMANT/PAUSE rather than inventing owner ALLOW. This research plan does not require product code.
-- Legitimate parent/human retains policy/model credential and schedule ownership; a proposed developer actor may decide only within delegated, first-party supported scope. No claim of current S4=C or S5 ownership.
+Matching writable fork parent checked and owner-controlled `opensiro/meta` state ACTIVE/ALLOW read back. License/contributing assessed; CAMEL AI policy demands accepted discussion, human review and tests; Cline needs approved feature issue first. No public fork Issue, original Issue/comment/PR or product code authorized. Parent policy remains authoritative.
 
 ## Existing work / overlap
 
-- SHIPPED: [ModelInfo metadata](https://github.com/cline/cline/blob/eff43e19b267e171f597ab03733bfed25090f72d/sdk/packages/shared/src/llms/model-info.ts), [live catalog config](https://github.com/cline/cline/blob/eff43e19b267e171f597ab03733bfed25090f72d/sdk/packages/llms/src/providers/config.ts), [explicit schedule model selection](https://github.com/cline/cline/blob/eff43e19b267e171f597ab03733bfed25090f72d/apps/cli/src/commands/schedule/model-selection.ts), [schedule update/pause](https://github.com/cline/cline/blob/eff43e19b267e171f597ab03733bfed25090f72d/sdk/packages/core/src/cron/service/schedule-tool.ts), [persistent runs](https://github.com/cline/cline/blob/eff43e19b267e171f597ab03733bfed25090f72d/sdk/packages/core/src/cron/service/schedule-service.ts).
-- OPEN ISSUES (2026-11-18): [#15446](https://github.com/cline/cline/issues/15446) variant metadata; [#15481](https://github.com/cline/cline/issues/15481) actual routing vs displayed price; [#13921](https://github.com/cline/cline/issues/13921) API incompatibility. They do not prove schedule adaptation demand.
-- OPEN PRs: [#12357](https://github.com/cline/cline/pull/12357) provider capabilities and [#15670](https://github.com/cline/cline/pull/15670) settings. MERGED PR: [#15499](https://github.com/cline/cline/pull/15499) token budget. Avoid duplicate implementation.
-- UNVERIFIED: whether an existing SDK/plugin path plus schedule API already provides developer-owned model adaptation and feedback, and how schedule auth/run-model correlation behaves end to end. No code or native test run performed.
+Source [apps/vscode/src/sdk/model-catalog/catalog.ts](https://github.com/cline/cline/blob/20b042723a14412f6c1e84230b008708534d6e8c/apps/vscode/src/sdk/model-catalog/catalog.ts); [sdk/packages/core/src/extensions/tools/team/multi-agent.ts](https://github.com/cline/cline/blob/20b042723a14412f6c1e84230b008708534d6e8c/sdk/packages/core/src/extensions/tools/team/multi-agent.ts); [docs/cli/agent-teams.mdx](https://github.com/cline/cline/blob/20b042723a14412f6c1e84230b008708534d6e8c/docs/cli/agent-teams.mdx). Native work [issues / 15795](https://github.com/cline/cline/issues/15795); [pull / 15796](https://github.com/cline/cline/pull/15796). First-party provider catalog refresh, cache TTL and operator-selected provider configuration; issue #15795 shows running Hub not restarted by upgrade, not future/environment adaptation demand; team already reviews outcomes. A new agent name alone is neither a source-grounded C nor permission for a product change.
 
 ## Function ownership
 
-- S1 operational scheduled coding/maintenance tasks. S2/S3/S3* C states are from the historically assessed opt-in team mode and do not automatically credit this scheduled mode.
-- S4 proposed: externally dated model change → credible future options → developer-composed autonomous selection → authorized future schedule update/hold → observed later run and feedback to current S3. Current data transport and model metadata alone do not close S4.
-- S5 reserved ultimate identity/policy authority remains with legitimate parent; a budget/safety gate is not a S5 agent.
-- Falsifier: if existing native configuration/plugins already provide an equally useful lawful path, do not add a new constructor.
+- **S1** historical **A**: first-party autonomous operational tasks under native tool feedback. NO_TARGET or DEFER.
+- **S2** historical **C**: optional team task board/mailbox provides composable coordination. NO_TARGET or DEFER.
+- **S3** historical **C**: optional team lead controls active teammates and commitments. NO_TARGET or DEFER.
+- **S3*** historical **C**: reviewed/rejected fragments gate team outcome finalization. NO_TARGET or DEFER.
+- **S4** historical **—**: provider catalog refresh is not a developer-composed future environment decision owner. NO_TARGET or DEFER.
+- **S5** historical **—**: operator, deployment and user retain ultimate constraints. NO_TARGET or DEFER.
+
+## Parallel contribution-on-top review
+
+| Necessary function-specific outcome | Track A: shipped/Issue/PR | Track B: independent minimum addition or NONE | Falsifier |
+| --- | --- | --- | --- |
+| Observed Hub→local→Hub upgrade inconsistency; an autonomous outside/future model-strategy owner does not repair that same current-state bug | First-party provider catalog refresh, cache TTL and operator-selected provider configuration; issue #15795 shows running Hub not restarted by upgrade, not future/environment adaptation demand; team already reviews outcomes | No additional native S4 C port justified. Correct the Hub upgrade restart and provider invalidation via existing architecture before proposing a model lifecycle control actor. | A measured provider deprecation or capability-shift scenario proves native catalog refresh and legitimate manual switching cannot adapt future runs, while a new bounded autonomous S4 actor produces distinct permitted later-operation feedback |
+| Later operational closure and parent rights | Real native task/host feedback, license and parent authority | Existing native defect repair, configuration and user control are the baseline; no autonomous S4 | Same result without distinct owner or without lawful enforcement |
 
 ## Capability priority
 
-- P0: **conditional S4=C construction** for developer-owned selection of a supported replacement or hold for future recurring run, tied to next-run receipt.
-- P1: prove real operator need, check existing composition/overlap and provider trust, enforce workspace/schedule permissions, correlate run/model feedback, add native tests. P1 may precede P0.
-- P2: **NONE**; no forced secondary S3/S5 enhancement.
-- Sufficiency: five *logical* ports A signal, B options, C developer decision actor, D authorized schedule transition, E next-run receipt; absent any link, no constructor claim. Full native acceptance in [AI contract](https://github.com/opensiro-contributions/cline/blob/opensiro/meta/.opensiro/issues/cline-s4-model-lifecycle-20261118/constructor-sufficiency.md).
+P0: NO_QUALIFIED_C_TARGET. P1: Reproduce and route native #15795 running-Hub restart correctness; check existing provider picker and catalog invalidation. P2: NONE. Research **NO_GO/NO_USEFUL_CHANGE**. The historical states are not a defect checklist.
 
 ## Implementation options
 
-- Preferred low-cost baseline: manual operator model verification and supported schedule configuration update/hold, then inspect next run. Measure if this already solves the task.
-- If need and integration are proven: minimal first-party opt-in S4 decision-to-schedule bridge; no new model facts registry, unrelated agent hierarchy, or background network daemon required by this plan.
-- Proposed tests: real next-run substitution, alternative hold, invalid rights/stale facts rejection, provider-error feedback, opt-out behavior and baseline comparison. **NOT EXECUTED**.
+No additional native S4 C port justified. Correct the Hub upgrade restart and provider invalidation via existing architecture before proposing a model lifecycle control actor.. Compare simpler alternative First-party provider catalog refresh, cache TTL and operator-selected provider configuration; issue #15795 shows running Hub not restarted by upgrade, not future/environment adaptation demand; team already reviews outcomes. Proposed C requires eligible inputs, decisive actor, lawful enforcement, actual later operation and returned feedback; none is qualified above existing controls for this observed problem. Falsifier: A measured provider deprecation or capability-shift scenario proves native catalog refresh and legitimate manual switching cannot adapt future runs, while a new bounded autonomous S4 actor produces distinct permitted later-operation feedback.
 
 ## Specification and domain alternatives
 
-- Original-native roadmap/PR only with source project maintainer preapproval and separate OpenSiro permission; optional Profile/Skills method feedback solely if semantically evidenced; independent domain fork only under separate legal/authority check.
-- Original issue is a distinct public action, not authorized by this case. External maintainer acceptance is not transferred.
+Earlier Cline roadmap was NEEDS_EVIDENCE on hypothetical S4 model lifecycle; this narrower current-head independent rerun finds no qualified C for the observed Hub route.. Original authors own implementation; historical different case did not determine this first-pass outcome. Missing S4/S5 code does not imply a deliberate omission; intention UNVERIFIED. No Profile/Skills changes implied.
 
 ## Cost experiment
 
-- Matched task: scheduled job needs different provider/model after real upstream change. Compare manual configuration with opt-in developer-composed adaptation on same authority, timing and eligible models. Track operator effort, code + integration + review + testing + maintenance, failures and quality.
-- Cost status: NOT_MEASURED
+Matched native comparator: Reproduce stale Hub upgrade and verify restart semantics, compare model provider catalog cache reload against unchanged baseline; new S4 actor not warranted, NOT_RUN. Measure correct decisions, reviewer/regression effort, latency, tokens, human approval and maintenance cost. NOT_RUN; NOT_MEASURED.
 
 ## Delivery and publication
 
-- Human Issue draft: [issue.md](https://github.com/opensiro-contributions/cline/blob/opensiro/meta/.opensiro/issues/cline-s4-model-lifecycle-20261118/issue.md); technical constructor and acceptance: [constructor-sufficiency.md](https://github.com/opensiro-contributions/cline/blob/opensiro/meta/.opensiro/issues/cline-s4-model-lifecycle-20261118/constructor-sufficiency.md); case readme: [README.md](https://github.com/opensiro-contributions/cline/blob/opensiro/meta/.opensiro/issues/cline-s4-model-lifecycle-20261118/README.md).
-- Fork GitHub Issue: READY_FOR_FORK_ISSUE_APPROVAL — NOT PUBLISHED (separate exact current-conversation title/body approval required).
-- External issue: DRAFT — NOT PUBLISHED
-- Product implementation: NONE; original Issue / PR: NOT PUBLISHED; Index regrade: NONE.
-- Owner control on new meta: DORMANT/PAUSE, not an automatic RESUME.
+[Human](issue.md) and [AI](constructor-sufficiency.md) derive this **NO_GO/NO_USEFUL_CHANGE**. Internal OpenSiro fork metadata only; external issue DRAFT — NOT PUBLISHED. Current Index and original product untouched. No native tests, CI or cost measurements asserted.
