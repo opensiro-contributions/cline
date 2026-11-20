@@ -1,52 +1,52 @@
-# Cline — Wave 4 proposed S4 model-transition intelligence (Human roadmap)
+# Cline — proposed future model-transition intelligence for Hub schedules (Human Roadmap)
 
 **Target transition:** S4=— -> S4=C
 **Proposal-stage decision:** GO
 **Research disposition:** NEEDS_EVIDENCE
 
-**PLAN_ONLY · HYPOTHETICAL · NOT IMPLEMENTED · DRAFT — NOT PUBLISHED**
+**PLAN_ONLY · HYPOTHETICAL · original product UNCHANGED · public Issues/PRs NOT PUBLISHED**
 
-A developer could optionally compose an autonomous agent that anticipates externally announced model/provider changes, chooses a bounded future-session adaptation, and receives feedback from the actual subsequent Cline operation. The user still decides permitted models and ultimate policy.
+**One-sentence construction:** Enable an optional Cline agent to assess dated future provider/model changes for a **specific recurring Hub schedule**, autonomously select *retain / migrate / hold*, and let the parent user authorize the existing interactive schedule update; subsequent execution results return to the S4 investigator. This is **not** an agent secretly switching users' models.
 
-The canonical [roadmap.md](roadmap.md) owns pins, historical vector, six-function priorities and status. [constructor-sufficiency.md](constructor-sufficiency.md) records native Track A/B interfaces and falsifiable tests. Stable case cline-s4-model-lifecycle-20261118 in verified opensiro-contributions/cline at opensiro/meta.
+**Canonical source of truth:** [roadmap.md](roadmap.md) — pins, six-function dispositions, research/validation and decision. **Technical implementation/falsifier:** [constructor-sufficiency.md](constructor-sufficiency.md). Stable case on `opensiro-contributions/cline@opensiro/meta:.opensiro/issues/cline-s4-model-lifecycle-20261118/`.
 
-## Accepted Index and whole-repository screen
+## Central accepted historical VSM assessment
 
-**Historical accepted vector, NOT current-HEAD regrade:** S1=A · S2=C · S3=C · S3*=C · S4=— · S5=—. [Included pinned assessment](https://github.com/opensiro/vsm-harness-index/blob/41ce68817f37a49158dceddf5d384863d54b4ee0/assessments/cl/cline.md), blob 7dcc1f6f9e1087b867f2074549949d3dd26a9ced, review cfe9cadab99617d5013bf89f07b079d105057791, 2026-09-15, Profile 0.2.1/Skills 0.3.1. [Original HEAD](https://github.com/cline/cline/commit/20b042723a14412f6c1e84230b008708534d6e8c) pinned independently on 2026-11-20.
+Historical accepted Index (not a current-HEAD regrade): **S1=A · S2=C · S3=C · S3*=C · S4=— · S5=—**. [Included assessment pinned at 41ce688](https://github.com/opensiro/vsm-harness-index/blob/41ce68817f37a49158dceddf5d384863d54b4ee0/assessments/cl/cline.md), blob 7dcc1f6f9e1087b867f2074549949d3dd26a9ced, review ref cfe9cadab99617d5013bf89f07b079d105057791, 2026-09-15, Profile 0.2.1/Skills 0.3.1. Current original [source HEAD](https://github.com/cline/cline/commit/20b042723a14412f6c1e84230b008708534d6e8c), checked 2026-11-20. Later Profile 0.2.4 is normative, not a retroactive grade change.
 
-| Function / role | Historical Index state | Current source-based owner / closure | Candidate / priority |
+| Function / plain-language role | Historical Index state | Current first-party owner/return | Candidate and priority |
 | --- | --- | --- | --- |
-| **S1 · Operations** | A | First-party coding model/tool agent acts and responds to tool results | NO_TARGET |
-| **S2 · Coordination** | C | Optional team tasks/dependencies/mailbox attenuate shared-work interference | NO_TARGET |
-| **S3 · Current management** | C | Optional coordinator assigns and regulates active teammate commitments | NO_TARGET; return path |
-| **S3* · Independent audit** | C | Optional reviewer and reviewed/rejected outcome fragments gate finalization | NO_TARGET |
-| **S4 · External future adaptation** | — | Catalog/status and user model selection; autonomous future decision+feedback not evidenced | P0: prospective C proposal |
-| **S5 · Identity/policy** | — | User/developer retains ultimate model policy and approvals | NO_TARGET, parent |
+| **S1 · Operations** | A | Autonomous coding and scheduled task model/tool loops act and observe outcomes | NO_TARGET |
+| **S2 · Coordination** | C | Optional team mailbox/tasks/dependencies coordinate peer work and conflicting commitments | NO_TARGET |
+| **S3 · Current regulation** | C | Optional team lead controls current commitments; Hub schedule state/interactive host controls active scheduled settings | NO_TARGET; recipient of S4 option |
+| **S3* · Independent audit** | C | Optional independent reviewer and reviewed outcome fragments gate finalization | NO_TARGET |
+| **S4 · Future/environment** | — | Model catalogue exposes status, but no autonomously owned external future option/return loop evidenced | **P0**: scheduled-task S4 constructor |
+| **S5 · Ultimate policy** | — | User/developer reserves permissions and ultimate identity, not delegated by a cron tool | NO_TARGET |
 
-Whole-repository scope: first-party SDK, CLI, VS Code, Desktop, Hub, catalog/configuration, teams, plugins, cron, tests and relevant original Issues/PRs. Adjacent CI/dogfood, external provider governance and parent human authority excluded from autonomous S5. No claim intentional omission without evidence. A missing C is neither a defect nor a maturity ranking; no obligation to add all functions.
+Repository screen covered SDK, Core Hub/cron, CLI schedule commands, VS Code/Desktop provider settings and cloud restriction, optional teams/plugins, original tests, Issues/PRs and [CONTRIBUTING](https://github.com/cline/cline/blob/20b042723a14412f6c1e84230b008708534d6e8c/CONTRIBUTING.md). Provider-company decisions and repository CI are outside this product boundary. A missing grade is not a defect; no intentional omission is asserted without evidence. Accepted states are autonomy categories, not quality ranking.
 
-## Selected capability and native comparison
+## Specific developer/operator scenario
 
-**Scenario (HYPOTHETICAL):** provider announces a future retirement or capability change. An optional source-attributed S4 agent evaluates real catalog options, chooses *retain*, *migrate candidate* or *hold*, and proposes an allowlisted future-session model; S3/host accepts or rejects it under parent policy. After the subsequent session, the outcome returns to the S4 decision owner.
+A recurring Cline Hub schedule uses provider **P** / model **M**. An externally verifiable dated notice forecasts retirement/compatibility changes. The optional S4 investigator compares available models and selects between **retain, migrate candidate, hold** for **that schedule_id**, recording the source and expiry. The user can approve the candidate **in an interactive session**; only then the built-in `tasks.scheduled` **update** takes `model_selection`. A later scheduled execution should use the updated provider/model and publish a result that can inform the investigator. This scenario is HYPOTHETICAL; no real impending provider sunset or maintainer demand is claimed.
 
-**Track A:** [Catalog status/deprecation](https://github.com/cline/cline/blob/20b042723a14412f6c1e84230b008708534d6e8c/sdk/packages/llms/src/catalog/catalog-live.ts), [read-only provider catalog](https://github.com/cline/cline/blob/20b042723a14412f6c1e84230b008708534d6e8c/apps/vscode/src/sdk/model-catalog/catalog.ts), [explicit model selection store](https://github.com/cline/cline/blob/20b042723a14412f6c1e84230b008708534d6e8c/apps/vscode/src/sdk/model-catalog/store.ts), Core [plugin hooks](https://github.com/cline/cline/blob/20b042723a14412f6c1e84230b008708534d6e8c/docs/sdk/plugins.mdx) and [scheduled execution](https://github.com/cline/cline/blob/20b042723a14412f6c1e84230b008708534d6e8c/docs/sdk/guides/scheduled-agents.mdx). Merged original PR #15667 refreshes models; open PRs #15670 and #15677 address config/discovery. These do not establish an autonomous prospective choice owner.
+**What Cline already supports (Track A):** [`tasks.scheduled` tool](https://github.com/cline/cline/blob/20b042723a14412f6c1e84230b008708534d6e8c/sdk/packages/core/src/cron/service/schedule-tool.ts) accepts interactive, workspace-scoped `update` with `model_selection`; **it rejects noninteractive mutations**. [`HubScheduleService.updateSchedule`](https://github.com/cline/cline/blob/20b042723a14412f6c1e84230b008708534d6e8c/sdk/packages/core/src/cron/service/schedule-service.ts) persists model settings; [`CronRunner.buildStartRequest`](https://github.com/cline/cline/blob/20b042723a14412f6c1e84230b008708534d6e8c/sdk/packages/core/src/cron/runner/cron-runner.ts) uses stored `providerId/modelId` for future runs and publishes completion/failure events. [Core scheduled agents](https://github.com/cline/cline/blob/20b042723a14412f6c1e84230b008708534d6e8c/docs/sdk/guides/scheduled-agents.mdx) and [live model catalogue](https://github.com/cline/cline/blob/20b042723a14412f6c1e84230b008708534d6e8c/sdk/packages/llms/src/catalog/catalog-live.ts) are reusable. The built-in [schedule execution listing](https://github.com/cline/cline/blob/20b042723a14412f6c1e84230b008708534d6e8c/sdk/packages/core/src/cron/service/schedule-service.ts) reports `executionId/sessionId/status` but not a standalone immutable actual-model receipt for the S4 investigator.
 
-**Track B:** reuse those native components, but add the smallest typed *future model-transition proposal + parent authorization + next-session acknowledgement/feedback* bridge. A notification or direct silent model rewrite is insufficient.
+**What to construct (Track B):** an optional, dated-source S4 analysis/proposal for `schedule_id`; reuse the **existing** user-interactive task update rather than inventing another general Host write API; verify/complete a *read-only* association between accepted proposal, next schedule revision, actual run model and completion/failure, using existing history/session data where possible. Do not bypass the noninteractive guard to make a stronger demo.
 
-| Necessary C link | Native available (A) | Missing constructor (B) |
+| Required S4 chain | Native A | Smallest missing original-native B |
 | --- | --- | --- |
-| External future evidence | Model status and live metadata | Dated/provenanced future notice, candidate and autonomous S4 option selection |
-| Legitimate effect | User model selection and next-session SDK config | Parent-scoped typed proposal, allowlist/veto, approved future application |
-| Return feedback | Session/model events and afterModel hooks | Actual selected model/outcome returned to future S4 decisions |
+| External future model distinction and choice | Catalogue + cron/agents | Dated notice, alternatives and autonomous retain/migrate/hold decision for one schedule |
+| Legitimate change to future operation | Workspace-checked interactive `tasks.scheduled.update` and persisted `modelSelection` | Proposal attached to specific schedule, explicit parent approval; **no headless mutation** |
+| Future-run feedback | CronRunner run events + Hub schedule execution history/sessionId | Prove actual executed model and correlate result to approved proposal; add only minimal read-only projection if necessary |
 
-**P0:** complete optional S4→S3→S4 construction. **P1:** rights, scoped host bridge, recency, compatibility and native tests. **P2:** NONE. Native/manual selection remains best cheap alternative for one-off model changes; maintenance/product fit is the maintainers' decision.
+**P0:** S4 future-option owner → interactive authorized native schedule change → later-run result to S4. **P1:** dates/compatibility, workspace/parent rights, actual-model/run correlation and no race with in-flight run. **P2:** NONE. **Proposed C-sufficiency:** GO at proposal stage only, with NEEDS_EVIDENCE for unexecuted native tests. A user may simply switch models manually; the decision whether to add this is Cline maintainers', not OpenSiro's.
 
-## Historical comparison and falsifier
+## Patch refinement, validation and handoff
 
-Earlier 2026-11-19 [stable case](https://github.com/opensiro-contributions/cline/commit/3437b3be25df2404b19cc699a52590a46bbc6e0f) produced NO_GO for a different narrow question: current Hub restart [Issue #15795](https://github.com/cline/cline/issues/15795). Under new v0.18.0 neutrality, a current bug fix is not equivalent to a prospective autonomous S4 construction. New decision independently [sealed before historical reading](https://github.com/opensiro/upstream/issues/58#issuecomment-7043170806). Both decisions have their own scope and history; neither is product adoption.
+The initial v0.18.0 [independent GO seal](https://github.com/opensiro/upstream/issues/58#issuecomment-7043170806) remains unchanged. The v0.18.1 [native-specific PATCH](https://github.com/opensiro/upstream/blob/main/changes/v0.18.1.md) is advisory and adds no test/acceptance metric. It revealed the earlier proposed *generic new typed Host port* was too broad: Cline's existing `tasks.scheduled.update` already has an authorized path. This case therefore narrows P0 to Cline **Hub schedules**, with explicit guard/feedback.
 
-**Positive proposed tests — NOT_RUN:** two distinct legitimate future model strategy choices; authorized *next* session consumes the approved model; selected model and outcome return. **Negative — NOT_RUN:** stale notice, unsupported model, absent/revoked parent approval, no live cloud session mutation and native unchanged fallback. **Falsifier:** equivalent already-shipped autonomous S4 future-loop or lawful post-choice effect/return cannot be completed. Benefit and cost remain NOT_MEASURED.
+Earlier [2026-11-19 NO_GO](https://github.com/opensiro-contributions/cline/commit/3437b3be25df2404b19cc699a52590a46bbc6e0f) evaluated a current Hub restart bug (#15795), not prospective scheduled model transitions. Preserved in immutable Git history; this continuation is not an independent new run.
 
-## Rights and next action
+**Future acceptance (NOT_RUN):** two externally dated scenarios yield different prospective options; interactive and correct-workspace approval updates only the named schedule; the subsequent execution really uses the approved model and returns its status; stale/unsupported input, cross-workspace access and noninteractive mutation fail safely; an already-running run does not switch mid-flight. The original [schedule-tool tests](https://github.com/cline/cline/blob/20b042723a14412f6c1e84230b008708534d6e8c/sdk/packages/core/src/cron/service/schedule-tool.test.ts), [schedule-service tests](https://github.com/cline/cline/blob/20b042723a14412f6c1e84230b008708534d6e8c/sdk/packages/core/src/cron/service/schedule-service.test.ts) and [cron-runner tests](https://github.com/cline/cline/blob/20b042723a14412f6c1e84230b008708534d6e8c/sdk/packages/core/src/cron/runner/cron-runner.test.ts) are the native test anchors. **Falsifier:** no distinct prospective choice, no lawful later action, or no reliable returned actual-run information.
 
-Fork owner state ACTIVE/ALLOW permits internal .opensiro metadata only. [Original CONTRIBUTING](https://github.com/cline/cline/blob/20b042723a14412f6c1e84230b008708534d6e8c/CONTRIBUTING.md) requires an approved feature request for product changes. No external third-party or public fork Issue/PR/comment, product implementation, Index grade change or parent-policy delegation authorized. Research NEEDS_EVIDENCE, original-native tests NOT_RUN. AI-assisted draft; independent tests and maintainer acceptance are future separate decisions.
+Rights: fork `ACTIVE/ALLOW` covers internal .opensiro files, not third-party GitHub publications. Original product and accepted Index unchanged; native behavioral tests NOT_RUN, cost/benefit NOT_MEASURED. No extra Upstream run PR: [#84 closed unmerged](https://github.com/opensiro/upstream/pull/84), preserved in the single [Supplementary report](https://github.com/opensiro/upstream/blob/main/docs/ROADMAP_REPORT.md#supplementary). AI-assisted proposal, not an authorized implementation.

@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "id": "20261120T161627Z--upstream58-cline-v0181-native-specific",
+  "recorded_at": "2026-11-20T16:16:27Z",
+  "actor": "OpenSiro AI assistant (owner-requested continuation of completed Cline Wave 4 run)",
+  "kind": "RESEARCH",
+  "decision": "GO",
+  "research_disposition": "NEEDS_EVIDENCE",
+  "source_protocol": "opensiro/upstream main v0.18.1 advisory; latest published release v0.18.0",
+  "original_ref": "cline/cline@20b042723a14412f6c1e84230b008708534d6e8c",
+  "target_transition": "S4=— -> S4=C",
+  "case_id": "cline-s4-model-lifecycle-20261118",
+  "action": "REFINE_EXISTING_CASE_NATIVE_SPECIFIC_WITHOUT_NEW_INDEPENDENT_RUN",
+  "scope": "Cline first-party Hub recurring schedule provider/model lifecycle, interactive approval and actual run feedback",
+  "prior_decision": "2026-11-20 independent GO + NEEDS_EVIDENCE retained; 2026-11-19 old NO_GO current-state Hub restart preserved",
+  "evidence_urls": [
+    "https://github.com/opensiro/upstream/issues/58#issuecomment-7044413405",
+    "https://github.com/opensiro/upstream/issues/58#issuecomment-7043170806",
+    "https://github.com/opensiro/upstream/blob/main/changes/v0.18.1.md",
+    "https://github.com/cline/cline/blob/20b042723a14412f6c1e84230b008708534d6e8c/sdk/packages/core/src/cron/service/schedule-tool.ts",
+    "https://github.com/cline/cline/blob/20b042723a14412f6c1e84230b008708534d6e8c/sdk/packages/core/src/cron/runner/cron-runner.ts",
+    "https://github.com/opensiro/upstream/pull/84"
+  ],
+  "note": "Native-specificity patch refinement: reuse existing tasks.scheduled interactive update model_selection and HubScheduleService/CronRunner rather than proposing generic full Host model-change port. Scheduled noninteractive agents cannot mutate schedules. S4 candidate is forward-looking retain/migrate/hold with parent acceptance and correlated next-run actual model/outcome. GO is proposal-stage only, native tests not run. No new Upstream per-run PR/file.",
+  "validation_state": "NOT_RUN",
+  "external_publication": "NOT_PUBLISHED",
+  "next_action": "Preserve noninteractive/workspace/parent guard, test source-native proposal→interactive schedule update→actual next-run model/outcome and falsifier only after separately authorized implementation."
+}

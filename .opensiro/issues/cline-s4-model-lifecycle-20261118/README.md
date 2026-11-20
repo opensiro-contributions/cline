@@ -1,21 +1,27 @@
-# Cline / Upstream #58 — Wave 4 post-release v0.18.0 neutrality rerun
+# Cline — Upstream #58 Wave 4, native-specific v0.18.1 continuation
 
-**2026-11-20** · original [main@20b042723a14412f6c1e84230b008708534d6e8c](https://github.com/cline/cline/commit/20b042723a14412f6c1e84230b008708534d6e8c) · accepted historical Index (S1=A S2=C S3=C S3*=C S4=— S5=—).
+**2026-11-20 · SAME RUN, NOT A NEW INDEPENDENT RE-RUN** · original [cline/cline@20b042723](https://github.com/cline/cline/commit/20b042723a14412f6c1e84230b008708534d6e8c).
 
-- **Wave 4 independent proposal decision:** GO / NEEDS_EVIDENCE
-- **Hypothesis:** S4=— -> S4=C, optional future provider/model transition intelligence; not a shipped grade
-- **P0:** developer-composed prospective option owner, parent-authorized next-session configuration and actual feedback
-- **Rights:** fork opensiro/meta ACTIVE/ALLOW only; original and public fork GitHub Issues/PRs NOT_PUBLISHED
-- **Tests:** native NOT_RUN · cost NOT_MEASURED · product NOT_IMPLEMENTED
-- **Protocol:** [Upstream v0.18.0](https://github.com/opensiro/upstream/commit/28ea2cce06b517bc4550dceddb00210b1e0dc85c)
-- **Concurrency reservation:** [#58 Wave 4 claim](https://github.com/opensiro/upstream/issues/58#issuecomment-7042964196)
-- **Fresh independent first-pass seal:** [#58 source-only decision](https://github.com/opensiro/upstream/issues/58#issuecomment-7043170806)
-- [Canonical roadmap receipt](roadmap.md) · [Human issue](issue.md) · [AI constructor contract](constructor-sufficiency.md)
+**Proposal-stage GO / research NEEDS_EVIDENCE · S4=— -> S4=C (HYPOTHETICAL, NOT SHIPPED)**. Accepted historical Index S1=A · S2=C · S3=C · S3*=C · S4=— · S5=— unchanged.
 
-## Old/new boundary
+[Canonical roadmap receipt](roadmap.md) · [Human issue draft](issue.md) · [AI source-native constructor](constructor-sufficiency.md).
 
-Prior 2026-11-19 [atomic result](https://github.com/opensiro-contributions/cline/commit/3437b3be25df2404b19cc699a52590a46bbc6e0f) was NO_GO / NO_QUALIFIED_C_TARGET about the **current-state Hub restart error #15795**, not the independent **prospective model lifecycle** C constructor in this new Wave 4 assessment-neutral attempt. The first pass was sealed before reading the historical case; previous immutable event remains and prior document contents remain in Git history. Current proposed S4 is purely architectural, not evidence of Cline maintainer demand or authorization to implement.
+## Specific Cline construction
 
-## Validation and delivery
+Prior generic proposed "model transition Host port" was narrowed under [integrated v0.18.1 native-specific advisory](https://github.com/opensiro/upstream/blob/main/changes/v0.18.1.md):
 
-Run the pinned Upstream [structural validator](https://github.com/opensiro/upstream/blob/v0.18.0/scripts/validate_capability_roadmap.py) over the whole case directory. Structural PASS is not native behavioral proof. Completion receipts and validator evidence belong to [Upstream #58](https://github.com/opensiro/upstream/issues/58). No external publication, Index regrade or product-code edits.
+- Scope is one **Cline Core Hub recurring schedule** and its selected model, not a global session/provider mutation.
+- An optional autonomous S4 researcher compares externally dated provider/model future notices, selects retain/migrate/hold, and explains the recommendation for that schedule.
+- Existing first-party `tasks.scheduled` **update** already supports `model_selection` but explicitly **requires an interactive user session** and matching workspace. Do **not** use a headless scheduled agent to mutate schedules.
+- After parent-authorized interactive update, `HubScheduleService` persists the selection, `CronRunner.buildStartRequest` uses it on a future run, and Core execution events/history can supply outcome. The research gap is reliable *proposal → authorized schedule revision → actual next-run model/outcome* correlation for the S4 investigator, not a general-purpose new Host write API.
+- Native behavior tests **NOT_RUN**, technical benefit/cost **NOT_MEASURED**. No original code or Index changes, no maintainer approval or additional authority presumed.
+
+## Provenance and rights
+
+The [v0.18.0 first-pass decision](https://github.com/opensiro/upstream/issues/58#issuecomment-7043170806) was sealed independently; [prior v0.18.0 Cline metadata commit](https://github.com/opensiro-contributions/cline/commit/e6a12a8fba0bfe7399c5e00cfc3f818f05e6940b) remains in Git history. An even older [2026-11-19 NO_GO](https://github.com/opensiro-contributions/cline/commit/3437b3be25df2404b19cc699a52590a46bbc6e0f) addressed the *current-state Hub upgrade issue*, not this prospective future-option constructor. No result overwritten without provenance; this is same-case refinement.
+
+Owner `ACTIVE/ALLOW` covers internal `opensiro/meta` research only. External/public fork GitHub Issue, original PR/comment/issue **NOT_PUBLISHED**, no product implementation, no test execution.
+
+Under [Upstream reporting hygiene](https://github.com/opensiro/upstream/blob/main/docs/ROADMAP_INDEPENDENT_RERUN.md) there is **no new per-run upstream .md or PR**. Historical [PR #84](https://github.com/opensiro/upstream/pull/84) is already closed unmerged and linked in the one [Supplementary report](https://github.com/opensiro/upstream/blob/main/docs/ROADMAP_REPORT.md#supplementary); active completion belongs in existing [Upstream #58](https://github.com/opensiro/upstream/issues/58).
+
+**Validation:** Current Upstream `scripts/validate_capability_roadmap.py <case-dir>` is the structural check to run after writing this case. Any such PASS validates formatting only, not S4 semantic closure or native tests.
