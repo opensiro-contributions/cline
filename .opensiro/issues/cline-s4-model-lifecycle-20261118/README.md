@@ -1,23 +1,21 @@
-# cline/cline — independent Upstream #58 v0.18 rerun
+# Cline / Upstream #58 — Wave 4 post-release v0.18.0 neutrality rerun
 
-**Research observation:** 2026-11-19 · **Original HEAD:** [20b042723a14412f6c1e84230b008708534d6e8c](https://github.com/cline/cline/commit/20b042723a14412f6c1e84230b008708534d6e8c) · **Index:** accepted historical state, not updated.
+**2026-11-20** · original [main@20b042723a14412f6c1e84230b008708534d6e8c](https://github.com/cline/cline/commit/20b042723a14412f6c1e84230b008708534d6e8c) · accepted historical Index (S1=A S2=C S3=C S3*=C S4=— S5=—).
 
-- **Proposal-stage decision:** NO_GO
-- **Research disposition:** NO_USEFUL_CHANGE
-- **Target transition:** NO_QUALIFIED_C_TARGET
-- **Owner control:** ACTIVE / ALLOW for internal OpenSiro metadata (owner event `20261119T182226Z--owner-upstream58-active`)
-- **Canonical atomic case commit:** [3437b3be25df2404b19cc699a52590a46bbc6e0f](https://github.com/opensiro-contributions/cline/commit/3437b3be25df2404b19cc699a52590a46bbc6e0f)
-- [Canonical proposal-gate roadmap receipt](https://github.com/opensiro-contributions/cline/blob/3437b3be25df2404b19cc699a52590a46bbc6e0f/.opensiro/issues/cline-s4-model-lifecycle-20261118/roadmap.md) — historical vector, full six functions, A/B, rights, verdict and cost
-- [Human Issue draft](https://github.com/opensiro-contributions/cline/blob/3437b3be25df2404b19cc699a52590a46bbc6e0f/.opensiro/issues/cline-s4-model-lifecycle-20261118/issue.md) — central Index starting point and combined six-function table
-- [AI/developer sufficiency contract](https://github.com/opensiro-contributions/cline/blob/3437b3be25df2404b19cc699a52590a46bbc6e0f/.opensiro/issues/cline-s4-model-lifecycle-20261118/constructor-sufficiency.md) — source-backed options, falsifier and proposed native acceptance
-- [Upstream #58](https://github.com/opensiro/upstream/issues/58) — internal queue owner
+- **Wave 4 independent proposal decision:** GO / NEEDS_EVIDENCE
+- **Hypothesis:** S4=— -> S4=C, optional future provider/model transition intelligence; not a shipped grade
+- **P0:** developer-composed prospective option owner, parent-authorized next-session configuration and actual feedback
+- **Rights:** fork opensiro/meta ACTIVE/ALLOW only; original and public fork GitHub Issues/PRs NOT_PUBLISHED
+- **Tests:** native NOT_RUN · cost NOT_MEASURED · product NOT_IMPLEMENTED
+- **Protocol:** [Upstream v0.18.0](https://github.com/opensiro/upstream/commit/28ea2cce06b517bc4550dceddb00210b1e0dc85c)
+- **Concurrency reservation:** [#58 Wave 4 claim](https://github.com/opensiro/upstream/issues/58#issuecomment-7042964196)
+- **Fresh independent first-pass seal:** [#58 source-only decision](https://github.com/opensiro/upstream/issues/58#issuecomment-7043170806)
+- [Canonical roadmap receipt](roadmap.md) · [Human issue](issue.md) · [AI constructor contract](constructor-sufficiency.md)
 
-## Distinction from previous case
+## Old/new boundary
 
-Model catalog/Hub model lifecycle S4 did not establish a separate autonomous future-environment feedback loop over native provider catalog and current Hub upgrade incident #15795.
+Prior 2026-11-19 [atomic result](https://github.com/opensiro-contributions/cline/commit/3437b3be25df2404b19cc699a52590a46bbc6e0f) was NO_GO / NO_QUALIFIED_C_TARGET about the **current-state Hub restart error #15795**, not the independent **prospective model lifecycle** C constructor in this new Wave 4 assessment-neutral attempt. The first pass was sealed before reading the historical case; previous immutable event remains and prior document contents remain in Git history. Current proposed S4 is purely architectural, not evidence of Cline maintainer demand or authorization to implement.
 
 ## Validation and delivery
 
-Official `scripts/validate_capability_roadmap.py` from Upstream main `be03ced5ed5d3b7210762df612dc4b3f452c1a73`: **PASS** for all three published files, independently downloaded from pinned GitHub commit. This is a structural check, NOT native/semantic validation. Native tests: **NOT_RUN**. Measured user benefit/cost: **NOT_MEASURED**.
-
-Rights: original and matching fork parent checked; no original-facing publication, no fork GitHub Issue, no product implementation, no accepted Index regrade. Both publications **DRAFT — NOT PUBLISHED**. Next: Route native Hub upgrade restart and catalog refresh reproduction; no S4 product port.
+Run the pinned Upstream [structural validator](https://github.com/opensiro/upstream/blob/v0.18.0/scripts/validate_capability_roadmap.py) over the whole case directory. Structural PASS is not native behavioral proof. Completion receipts and validator evidence belong to [Upstream #58](https://github.com/opensiro/upstream/issues/58). No external publication, Index regrade or product-code edits.

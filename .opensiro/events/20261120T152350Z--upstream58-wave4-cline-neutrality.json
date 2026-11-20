@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "20261120T152350Z--upstream58-wave4-cline-neutrality",
+  "recorded_at": "2026-11-20T15:23:50Z",
+  "actor": "OpenSiro AI assistant (owner-requested Upstream #58 Wave 4 independent rerun)",
+  "kind": "RESEARCH",
+  "decision": "GO",
+  "research_disposition": "NEEDS_EVIDENCE",
+  "source_protocol": "opensiro/upstream@28ea2cce06b517bc4550dceddb00210b1e0dc85c",
+  "original_ref": "cline/cline@20b042723a14412f6c1e84230b008708534d6e8c",
+  "target_transition": "S4=— -> S4=C",
+  "case_id": "cline-s4-model-lifecycle-20261118",
+  "prior_decision": "2026-11-19 NO_GO scoped to current Hub upgrade incident (historically preserved)",
+  "evidence_urls": [
+    "https://github.com/opensiro/upstream/issues/58#issuecomment-7042964196",
+    "https://github.com/opensiro/upstream/issues/58#issuecomment-7043170806",
+    "https://github.com/opensiro-contributions/cline/commit/3437b3be25df2404b19cc699a52590a46bbc6e0f"
+  ],
+  "note": "Independent source-first GO + NEEDS_EVIDENCE sealed before historical case comparison; distinct prospective external model strategy C with lawful host/S3 future session feedback. Architecturally hypothetical, no native test or implementation.",
+  "validation_state": "NOT_RUN",
+  "public_issue": "NOT_PUBLISHED",
+  "next_action": "Source-native parent-authority/feedback/falsifier tests only if separately authorized; no third-party publication."
+}
