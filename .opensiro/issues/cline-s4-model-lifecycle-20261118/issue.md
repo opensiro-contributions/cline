@@ -8,7 +8,7 @@
 
 A developer could optionally compose an autonomous agent that anticipates externally announced model/provider changes, chooses a bounded future-session adaptation, and receives feedback from the actual subsequent Cline operation. The user still decides permitted models and ultimate policy.
 
-The canonical [roadmap.md](roadmap.md) owns pins, historical vector, six-function priorities and status. [Technical constructor-sufficiency.md](constructor-sufficiency.md) records native Track A/B interfaces and falsifiable tests. Stable case cline-s4-model-lifecycle-20261118 in verified opensiro-contributions/cline at opensiro/meta.
+The canonical [roadmap.md](roadmap.md) owns pins, historical vector, six-function priorities and status. [constructor-sufficiency.md](constructor-sufficiency.md) records native Track A/B interfaces and falsifiable tests. Stable case cline-s4-model-lifecycle-20261118 in verified opensiro-contributions/cline at opensiro/meta.
 
 ## Accepted Index and whole-repository screen
 
